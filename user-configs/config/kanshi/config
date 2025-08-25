@@ -1,0 +1,8 @@
+profile laptop {
+    output eDP-1 enable position 0,1080
+}
+
+profile docked {
+    output eDP-1 enable position 0,1080
+    output HDMI-A-1 enable position 480,0
+}

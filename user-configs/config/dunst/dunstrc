@@ -1,0 +1,51 @@
+[global]
+    font = Hack 16
+    
+    # Display
+    monitor = 0
+    follow = mouse
+    
+    # Geometry
+    width = 300
+    height = (0, 300)
+    origin = top-right
+    offset = (10, 50)
+    
+    # Progress bar
+    progress_bar = true
+    progress_bar_height = 10
+    progress_bar_frame_width = 1
+    progress_bar_min_width = 150
+    progress_bar_max_width = 300
+    
+    # Appearance
+    frame_color = "#67608B"
+    frame_width = 2
+    corner_radius = 6
+    background = "#000000CC"
+    foreground = "#FFFFFF"
+    
+    # Behavior
+    timeout = 2
+    idle_threshold = 120
+    show_age_threshold = 60
+    sort = yes
+    indicate_hidden = yes
+    
+    # Text
+    alignment = left
+    vertical_alignment = center
+    show_indicators = yes
+    
+    # Icons
+    icon_position = left
+    max_icon_size = 32
+    
+    # History
+    sticky_history = yes
+    history_length = 20
+    
+    # Mouse
+    mouse_left_click = close_current
+    mouse_middle_click = do_action, close_current
+    mouse_right_click = close_all

@@ -1,0 +1,43 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "modules": [
+    "break",
+    {
+      "type": "title",
+      "format": " {#95}\u250c {#0}{#96}{user-name} {#95}─────────────────────────────"
+    },
+    {
+      "type": "datetime",
+      "key": " {#95}\u2502 {#96}\u2022",
+      "format": "{1}-{5}-{11} {9} {#36}{14}:{18}"
+    },
+    {
+      "type": "title",
+      "format": " {#95}\u2514─────────────────────────────────────"
+    },
+    {
+      "type": "title",
+      "format": " {#95}\u250c──────────────────────────────────────"
+    },
+    {
+      "type": "kernel",
+      "key": " {#95}\u2502 {#96}\u2022",
+      "keyColor": ""
+    },
+    {
+      "type": "os",
+      "key": " {#95}\u2502 {#96}\u2022",
+      "keyColor": ""
+    },
+    {
+      "type": "host",
+      "key": " {#95}\u2502 {#96}\u2022",
+      "keyColor": ""
+    },
+    {
+      "type": "title",
+      "format": " {#95}\u2514─────────────────────────────────────────"
+    },
+    "break"
+  ]
+}
